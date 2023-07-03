@@ -30,7 +30,6 @@
         - GPT-4
 - Adaptation tuning of LLMs
     - Instuction tuning
-        - [FINETUNED LANGUAGE MODELS ARE ZERO-SHOT LEARNERS](https://arxiv.org/pdf/2109.01652.pdf)
     - Alignment tuning
         -RLHF
             - Training language models to follow instructions with human feedback
