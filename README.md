@@ -36,16 +36,15 @@
             - Training language models to follow instructions with human feedback
             - Deep reinforcement learning from human preferences
     - [Efficient tuning](https://github.com/wzzzd/LLM_Learning_Note/blob/main/Tuning/efficient-tuning.md)
-        - Adapter tuning
-        - Prefix tuning
-        - Prompt tuning
-        - P-tuning
-        - P-tuning v2
-        - LoRA
+        - [Adapter tuning](https://github.com/wzzzd/LLM_Learning_Note/blob/main/Tuning/efficient-tuning.md)
+        - [Prefix tuning](https://github.com/wzzzd/LLM_Learning_Note/blob/main/Tuning/efficient-tuning.md)
+        - [Prompt tuning](https://github.com/wzzzd/LLM_Learning_Note/blob/main/Tuning/efficient-tuning.md)
+        - [P-tuning](https://github.com/wzzzd/LLM_Learning_Note/blob/main/Tuning/efficient-tuning.md)
+        - [P-tuning v2](https://github.com/wzzzd/LLM_Learning_Note/blob/main/Tuning/efficient-tuning.md)
+        - [LoRA](https://github.com/wzzzd/LLM_Learning_Note/blob/main/Tuning/efficient-tuning.md)
 - Utilization
     - [In-Context learning](https://github.com/wzzzd/LLM_Learning_Note/blob/main/Tuning/In-context-learning.md)
-    - Chain-of-Thought Prompting
-        - Chain of thought prompting elicits reasoning in large language models
+    - [Chain-of-Thought Prompting](https://github.com/wzzzd/LLM_Learning_Note/blob/main/Tuning/chain-of-thought-prompting.md)
 - Capacity Evaluation
     - 
 
