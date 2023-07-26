@@ -1,0 +1,20 @@
+# Alignment tuning
+
+paper
+- Training language models to follow instructions with human feedback
+- Deep reinforcement learning from human preferences
+
+
+## 1.介绍
+我们知道大语言模型LLM拥有出色的普适性能力，目前在NLP的大多数任务中都能达到SOTA的效果。但是LLM就真的是完美的吗？
+
+其实有使用过LLM的同学也有体验过，LLM有时候会存在以下缺点
+- 生成假的事实信息
+- 生成内容不准确
+- 生成有害的(harmful)、误导性的(misleading)、有偏见的(biased)的内容
+
+而这些缺陷在pre-training、instruction-tuning都没有被学习到。因为这两个阶段的学习任务是causal lm的目标，即预测下一个token。
+为了解决以上缺点，需要alignment tuning来学习不同的目标，学习人类的偏好信息，如helpfulness、honesty、harmlessness等。这个过程也可以称为是一个与人类偏好对齐的过程。
+
+值得一提的是，某些研究表明，对齐(alignment)会损失LLM的通用能力，这也被称为 对齐税(alignment tax)。
+
