@@ -71,8 +71,8 @@
         - [P-tuning v2](https://github.com/wzzzd/LLM_Learning_Note/blob/main/Tuning/efficient-tuning.md)
         - [LoRA](https://github.com/wzzzd/LLM_Learning_Note/blob/main/Tuning/efficient-tuning.md)
 - LLM的使用
-    - [上下文学习（In-Context learning）](https://github.com/wzzzd/LLM_Learning_Note/blob/main/Tuning/In-context-learning.md)
-    - [思维链推理（Chain-of-Thought Prompting）](https://github.com/wzzzd/LLM_Learning_Note/blob/main/Tuning/chain-of-thought-prompting.md)
+    - [上下文学习（In-Context learning）](https://github.com/wzzzd/LLM_Learning_Note/blob/main/Utilization/In-context-learning.md)
+    - [思维链推理（Chain-of-Thought Prompting）](https://github.com/wzzzd/LLM_Learning_Note/blob/main/Utilization/chain-of-thought-prompting.md)
 - LLM的能力评估（Capacity Evaluation）
 - 量化
     - 模型、训练过程的显存占用
