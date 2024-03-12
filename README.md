@@ -14,7 +14,7 @@
 # 模块
 - 开源框架
     - Transformers
-    - DeepSpeed
+    - [DeepSpeed](https://github.com/wzzzd/LLM_Learning_Note/blob/main/Parallel/deepspeed.md)
     - Megatron-LM
     - Jax
     - Colossal-AI
@@ -29,8 +29,8 @@
         - [InstructGPT/ChatGPT](https://github.com/wzzzd/LLM_Learning_Note/blob/main/model/gpt-series/instructgpt-chatgpt.md)
         - GPT-4
     - Llama
-        - Llama1
-        - Llama2
+        - [Llama1](https://github.com/wzzzd/LLM_Learning_Note/blob/main/model/llama.md)
+        - [Llama2](https://github.com/wzzzd/LLM_Learning_Note/blob/main/model/llama.md)
     - GLM series
         - GLM-130B
         - ChatGLM-6B(V1/V2/V3)
