@@ -44,7 +44,8 @@ DeepSpeed已经在许多大规模深度学习项目中得到了应用，包括�
 ### 1.数据并行
 数据并行分为了两种模式：Data Parallel（DP）和 Distributed Data Parallel（DDP）。
 
-Data Parallel（DP）
+**Data Parallel（DP）**
+
 DP是一种单进程多线程的并行策略，只能在单机上进行训练，步骤如下：
 * 单进程控制多GPU，即本质上是单进程多线程；
 * 首先将模型加载到主 GPU 上，再复制到各个指定从 GPU；
@@ -52,14 +53,17 @@ DP是一种单进程多线程的并行策略，只能在单机上进行训练，
 * 将结果同步给主 GPU 完成梯度计算和参数更新，将更新后的参数复制到各个 GPU。
 由于其是单进程控制多个GPU，故会存在GPU之间负载不均衡的问题，主GPU负载较大。
 
-Distributed Data Parallel（DDP）
+**Distributed Data Parallel（DDP）**
+
 DDP采用 AllReduce 架构，多进程的方式，突破锁的束缚。在单机和多机上都可以使用。
+
 负载分散在每个 GPU 节点上，通信成本（时间）是恒定的，与 GPU 数量无关，等于V/B（参数量/带宽）。
-DDP不需要通过主GPU分发全模型的参数到每个GPU上。
-使用ring-all-reduce的方式进行通讯，随着 GPU 数量 N 增加，总传输量恒定。也就是理论上，随着GPU数量的增加，ring all-reduce有线性加速能力。
+
+DDP不需要通过主GPU分发全模型的参数到每个GPU上。使用ring-all-reduce的方式进行通讯，随着 GPU 数量 N 增加，总传输量恒定。也就是理论上，随着GPU数量的增加，ring all-reduce有线性加速能力。
 
 
 ### 2.张量并行
+
 张量并行的原理是，将张量操作划分到多个设备上，以加速计算或增加模型大小；对模型每一层的层内参数进行切分，即对参数矩阵切片，并将不同切片放到不同GPU上；将原本在单卡中的矩阵乘法，切分到不同卡中进行矩阵乘法。训练过程中，正向和反向传播计算出的数据通过使用 All gather 或者 All reduce 的方法完成整合。
 
 以transformer为例，该策略会把 Masked Multi Self Attention 和 Feed Forward 都进行切分以并行化。利用 Transformers 网络的结构，通过添加一些同步原语来创建一个简单的模型并行实现。

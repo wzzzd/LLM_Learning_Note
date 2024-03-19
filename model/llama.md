@@ -91,7 +91,26 @@ Meta于2023年发布，论文
 
 ### 模型结构
 
-与Llama1一样
+在Llama1的基础上，做了部分修改。
+
+**Group Query Attention**
+
+类似MQA，但是K/V矩阵由1个变成m个。
+
+当m=1，则为MQA；当m=head，则为MHA。
+
+将query分为多个组，每一个组query共享一个K/V矩阵，即变成了多个MQA。
+
+<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/model/llama2-GQA.png width=80% />
+
+
+**Llama2-chat**
+
+在RLHF模块，使用了**Rejection Sampling+SFT**的方法进行微调
+- Rejection Sampling： 对于每个prompt，使用llm生成k个结果，选取k个结果中rm分数最高的结果，作为新的gold standard（新标），使用该样本对llm进行SFT。
+- 训练过程：Rejection Sampling+SFT操作进行了4次后，再使用PPO进行微调。
+
+<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/model/llama2-process.png width=80% />
 
 
 
