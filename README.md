@@ -38,8 +38,8 @@
         - [Llama2](https://github.com/wzzzd/LLM_Learning_Note/blob/main/model/llama.md)
         - Llama3
     - GLM series
-        - GLM-130B
-        - ChatGLM-6B(V1/V2/V3)
+        - [GLM-130B](https://github.com/wzzzd/LLM_Learning_Note/blob/main/model/glm/glm.md)
+        - [ChatGLM-6B(V1/V2/V3/V4)](https://github.com/wzzzd/LLM_Learning_Note/blob/main/model/glm/chatglm.md)
     - Falcon
         - Falcon 1
         - Falcon 2
@@ -110,6 +110,7 @@
     - ZeRO（整合数据和模型并行）
     - 并行框架
 - Scaling Law
+- 
 
 
 
