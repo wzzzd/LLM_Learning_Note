@@ -1,9 +1,8 @@
 # GLM: General Language Model Pretraining with Autoregressive Blank Infilling》
 
 
-## 论文：《GLM: General Language Model Pretraining with Autoregressive Blank Infilling》
-
-* https://arxiv.org/pdf/2103.10360.pdf
+## 论文：
+* [《GLM: General Language Model Pretraining with Autoregressive Blank Infilling》](https://arxiv.org/pdf/2103.10360.pdf)
 
 
 ## 模型结构
