@@ -14,14 +14,14 @@ GeLUs替换ReLU激活函数
 * 第二维，除开原始输入外，每一个segment的index为从1到segment长度
 
 <div align=center>
-<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/model/glm-130b.png width=40% />
+<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/model/glm-130b.png width=80% />
 </div>
 
 ## 学习目标
 主要采用自回归的方式，填充空白token。
 
 <div align=center>
-<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/model/glm-func1.png width=40% />
+<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/model/glm-func1.png width=50% />
 </div>
 
 
@@ -30,7 +30,7 @@ GeLUs替换ReLU激活函数
 * 其中segment的预测公式为
 
 <div align=center>
-<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/model/glm-func2.png width=40% />
+<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/model/glm-func2.png width=35% />
 </div>
 
 * 自注意力掩码
