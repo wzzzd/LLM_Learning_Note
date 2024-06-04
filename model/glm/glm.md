@@ -18,13 +18,13 @@ GeLUs替换ReLU激活函数
 ## 学习目标
 主要采用自回归的方式，填充空白token。
 
-<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/model/glm-func1.png width=80% />
+<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/model/glm-func1.png width=50% />
 
 * 对于input token，随机抽取m个span，并使用一个[mask] 占位符替换该span
 * 在预测时，打乱被mask的span顺序
 * 其中segment的预测公式为
 
-<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/model/glm-func2.png width=80% />
+<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/model/glm-func2.png width=50% />
 
 * 自注意力掩码
     * PartA在训练时，可以双向看到自身的信息
@@ -35,12 +35,12 @@ GeLUs替换ReLU激活函数
 * NLU
     * 对模型预测的token，映射成positive或negtive，再计算CE loss
 
-<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/model/glm-nlu.png width=80% />
+<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/model/glm-nlu.png width=50% />
 
 * NLG
     * 当成CLM任务，计算负对数损失
 
-<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/model/glm-nlg.png width=80% />
+<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/model/glm-nlg.png width=50% />
 
 
 ## 参考
