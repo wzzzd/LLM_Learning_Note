@@ -44,7 +44,7 @@ Outperforming Curated Corpora with Web Data, and Web Data Only](https://arxiv.or
 </div>
 
 ### 参考
-    - https://zhuanlan.zhihu.com/p/637996787
+- https://zhuanlan.zhihu.com/p/637996787
 
 
 
@@ -61,4 +61,5 @@ Outperforming Curated Corpora with Web Data, and Web Data Only](https://arxiv.or
     结构跟Falcon 1类似，都是基于transformer decoder-only的结构，使用了旋转位置编码，使用了Flash Attention2 + Multi Query Attenion(MQA)。
 
 ### 参考
+- https://falconllm.tii.ae/falcon-models.html
 - https://huggingface.co/tiiuae/falcon-11B
