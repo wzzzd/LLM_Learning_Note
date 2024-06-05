@@ -41,11 +41,11 @@
         - [GLM-130B](https://github.com/wzzzd/LLM_Learning_Note/blob/main/model/glm/glm.md)
         - [ChatGLM-6B(V1/V2/V3/V4)](https://github.com/wzzzd/LLM_Learning_Note/blob/main/model/glm/chatglm.md)
     - Falcon
-        - Falcon 1
-        - Falcon 2
+        - [Falcon 1](https://github.com/wzzzd/LLM_Learning_Note/blob/main/model/falcon.md)
+        - [Falcon 2](https://github.com/wzzzd/LLM_Learning_Note/blob/main/model/falcon.md)
     - Qwen
-        - Qwen v1
-        - Qwen v1.5
+        - [Qwen v1](https://github.com/wzzzd/LLM_Learning_Note/blob/main/model/qwen.md)
+        - [Qwen v1.5](https://github.com/wzzzd/LLM_Learning_Note/blob/main/model/qwen.md)
     - Mistral
         - Mistral 7B
         - Mixtral 8x7B MoE
