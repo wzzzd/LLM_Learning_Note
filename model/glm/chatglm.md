@@ -20,6 +20,7 @@
 * 增加训练数据、训练步数，修改训练策略
 
 ## V4
-* 收费，不开源
-* 最长支持128K
+* 地址：https://github.com/THUDM/GLM-4/tree/main?tab=readme-ov-file
+* 开源9B-base、9B-chat、V-9B，三个模型
+* 最长支持1000K token
 * 基本工具调用能力：浏览器、AI绘图
