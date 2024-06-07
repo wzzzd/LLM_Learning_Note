@@ -55,3 +55,38 @@
 
 ### 参考
 - https://zhuanlan.zhihu.com/p/682602547
+
+
+
+## Qwen 2
+### 时间
+2024.06
+
+### 参数量
+0.5/1.5/7/57B-A14B/72B
+
+### 输入长度
+128k
+
+### 模型结构
+与Qwen1类似，整体结构与llama类似
+
+<div align=center>
+<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/model/qwen2-struct.png width=80% />
+</div>
+
+### 优化思路
+- 利用拒绝采样技术优化数学相关任务的数据质量；
+- 通过代码执行的反馈机制强化代码处理与指令执行能力；
+- 借助回译技巧提升创意写作的多样性与独创性；
+- 实施可扩展的监督策略，以优化角色扮演等场景中的表现。
+
+### 处理长上下文的思路
+- YARN：https://arxiv.org/abs/2309.00071
+- Dual Chunk Attention：https://arxiv.org/abs/2402.17463
+
+### 参考
+- https://qwenlm.github.io/blog/qwen2/
+- https://mp.weixin.qq.com/s/EaC--213YVO1uVmt_oEwYg
+
+

@@ -46,6 +46,7 @@
     - Qwen
         - [Qwen v1](https://github.com/wzzzd/LLM_Learning_Note/blob/main/model/qwen.md)
         - [Qwen v1.5](https://github.com/wzzzd/LLM_Learning_Note/blob/main/model/qwen.md)
+        - [Qwen v2](https://github.com/wzzzd/LLM_Learning_Note/blob/main/model/qwen.md)
     - Mistral
         - Mistral 7B
         - Mixtral 8x7B MoE
@@ -61,7 +62,7 @@
         - Self-Attention
         - Muti Query Attention(MQA)
         - Group Query Attention(GQA)
-        - Flash Attention v1/2//3
+        - Flash Attention v1/2/3
     - 位置编码（Position Embedding）
         - 绝对位置编码
             - 正余弦位置编码
