@@ -109,10 +109,8 @@
 - 2.统计词频
     - 对于每个词，统计其在文本中的频率。
 - 3.合并收益最高的词对
-    - 假设各个子词之间是独立存在的，则句子S的语言模型似然值等价于所有子词概率的乘积
-<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/model/tokenizer-wordpiece-func1.png width=30% />
-    - 假设把相邻位置的x和y两个子词进行合并，合并后产生的子词记为z，此时句子S似然值的变化可表示为
-<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/model/tokenizer-wordpiece-func2.png width=35% />
+    - 假设各个子词之间是独立存在的，则句子S的语言模型似然值等价于所有子词概率的乘积<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/model/tokenizer-wordpiece-func1.png width=30% />
+    - 假设把相邻位置的x和y两个子词进行合并，合并后产生的子词记为z，此时句子S似然值的变化可表示为<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/model/tokenizer-wordpiece-func2.png width=35% />
     - 这里的语言模型可以选择最简单的Unigram-LM（一元分词语言模型），即单词的P等于其频数
 
 - 4.更新词频
