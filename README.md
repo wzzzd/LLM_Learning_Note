@@ -15,15 +15,12 @@
 - 开源框架
     - Transformers
     - [DeepSpeed](https://github.com/wzzzd/LLM_Learning_Note/blob/main/Parallel/deepspeed.md)
-    - Megatron-LM
-    - Jax
-    - Colossal-AI
-    - BMTrain
-    - FastMoE
+    - vLLM
+    - ollama
 - 分词器（Tokenizer）
-    - BPE
-    - BBPE
-    - WordPiece
+    - [BPE](https://github.com/wzzzd/LLM_Learning_Note/blob/main/tokenizer/tokenizer.md)
+    - [BBPE](https://github.com/wzzzd/LLM_Learning_Note/blob/main/tokenizer/tokenizer.md)
+    - [WordPiece](https://github.com/wzzzd/LLM_Learning_Note/blob/main/tokenizer/tokenizer.md)
     - SentencePiece
 - LLM模型
     - GPT series
@@ -39,7 +36,7 @@
         - Llama3
     - GLM series
         - [GLM-130B](https://github.com/wzzzd/LLM_Learning_Note/blob/main/model/glm/glm.md)
-        - [ChatGLM-6B(V1/V2/V3/V4)](https://github.com/wzzzd/LLM_Learning_Note/blob/main/model/glm/chatglm.md)
+        - [ChatGLM(V1/V2/V3/V4)](https://github.com/wzzzd/LLM_Learning_Note/blob/main/model/glm/chatglm.md)
     - Falcon
         - [Falcon 1](https://github.com/wzzzd/LLM_Learning_Note/blob/main/model/falcon.md)
         - [Falcon 2](https://github.com/wzzzd/LLM_Learning_Note/blob/main/model/falcon.md)
@@ -50,6 +47,11 @@
     - Mistral
         - Mistral 7B
         - Mixtral 8x7B MoE
+- Embedding模型
+    - BCEmbedding
+    - BGE
+    - GTE
+    - E5
 - 多模态模型
 
 - 模型结构
