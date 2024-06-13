@@ -1,5 +1,10 @@
 # 各种Attention变体
 
+## Self-Attention
+
+
+
+
 ## Muti Query Attention (MQA)
 
 ### 论文
@@ -98,7 +103,7 @@ FlashAttention的运行速度比PyTorch标准注意力快 2-4 倍，所需内存
 - 公式
 
 <div align=center>
-<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/model/atte-flash-func1.png width=30% />
+<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/model/atte-flash-func1.png width=70% />
 </div>
 
 - 现状
