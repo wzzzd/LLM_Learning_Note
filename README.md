@@ -60,11 +60,11 @@
         - Pre-LN
         - Sandwich-LN
         - DeepNet
-    - 注意力机制种类（Attention）
-        - Self-Attention
-        - Muti Query Attention(MQA)
-        - Group Query Attention(GQA)
-        - Flash Attention v1/2/3
+    - [注意力机制种类（Attention）](https://github.com/wzzzd/LLM_Learning_Note/blob/main/model-module/attention.md)
+        - [Self-Attention](https://github.com/wzzzd/LLM_Learning_Note/blob/main/model-module/attention.md)
+        - [Muti Query Attention(MQA)](https://github.com/wzzzd/LLM_Learning_Note/blob/main/model-module/attention.md)
+        - [Group Query Attention(GQA)](https://github.com/wzzzd/LLM_Learning_Note/blob/main/model-module/attention.md)
+        - [Flash Attention v1/2/3](https://github.com/wzzzd/LLM_Learning_Note/blob/main/model-module/attention.md)
     - 位置编码（Position Embedding）
         - 绝对位置编码
             - 正余弦位置编码
