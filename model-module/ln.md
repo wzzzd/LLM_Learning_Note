@@ -3,7 +3,7 @@
 ## Pre-LN
 
 ### 论文
-    [《ON LAYER NORMALIZATION IN THE TRANSFORMER ARCHITECTURE》](https://openreview.net/pdf?id=B1x8anVFPr)
+[《ON LAYER NORMALIZATION IN THE TRANSFORMER ARCHITECTURE》](https://openreview.net/pdf?id=B1x8anVFPr)
 
 ### 思路
 将LN过程移动到Multi-Head Attention和FFN前面进行
@@ -21,11 +21,11 @@ Pre-LN能提高Transformer的收敛速度
 ### 结构
 
 <div align=center>
-<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/model/ln-preln-struct1.png width=60% />
+<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/model/ln-preln-struct1.png width=40% />
 </div>
 
 <div align=center>
-<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/model/ln-preln-struct2.png width=60% />
+<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/model/ln-preln-struct2.png width=40% />
 </div>
 
 
