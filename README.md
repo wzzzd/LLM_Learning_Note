@@ -55,11 +55,11 @@
 - 多模态模型
 
 - 模型结构
-    - LN种类（Layer Nrom）
-        - Post-LN
-        - Pre-LN
-        - Sandwich-LN
-        - DeepNet
+    - [LN种类（Layer Nrom）](https://github.com/wzzzd/LLM_Learning_Note/blob/main/model-module/ln.md)
+        - Post-LN]
+        - [Pre-LN](https://github.com/wzzzd/LLM_Learning_Note/blob/main/model-module/ln.md)
+        - [Sandwich-LN](https://github.com/wzzzd/LLM_Learning_Note/blob/main/model-module/ln.md)
+        - [DeepNet](https://github.com/wzzzd/LLM_Learning_Note/blob/main/model-module/ln.md)
     - [注意力机制种类（Attention）](https://github.com/wzzzd/LLM_Learning_Note/blob/main/model-module/attention.md)
         - [Self-Attention](https://github.com/wzzzd/LLM_Learning_Note/blob/main/model-module/attention.md)
         - [Muti Query Attention(MQA)](https://github.com/wzzzd/LLM_Learning_Note/blob/main/model-module/attention.md)
