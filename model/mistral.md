@@ -60,17 +60,17 @@
 - 使用线性层的 Top-K logits，输出k个专家的结果，论文k=2
 
 <div align=center>
-<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/model/mixtral-func1.png width=60% />
+<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/model/mixtral-func1.png width=20% />
 </div>
 
 <div align=center>
-<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/model/mixtral-func2.png width=60% />
+<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/model/mixtral-func2.png width=20% />
 </div>
 
 
 - 整体输出
 <div align=center>
-<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/model/mixtral-func3.png width=60% />
+<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/model/mixtral-func3.png width=20% />
 </div>
 
 单层Mixtral模型结构
@@ -80,7 +80,7 @@
 - 理解：每一层decoder中的FFN层，都包含8个FFN专家，8个专家拥有各自的参数，剩下的如Attention相关参数是共享的。
 
 <div align=center>
-<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/model/mixtral-struct2.png width=60% />
+<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/model/mixtral-struct2.png width=30% />
 </div>
 
 
