@@ -60,7 +60,7 @@
 - 使用线性层的 Top-K logits，输出k个专家的结果，论文k=2
 
 <div align=center>
-<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/model/mixtral-func1.png width=10% />
+<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/model/mixtral-func1.png width=15% />
 </div>
 
 <div align=center>
