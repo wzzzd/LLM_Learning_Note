@@ -70,7 +70,7 @@
 
 - 整体输出
 <div align=center>
-<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/model/mixtral-func3.png width=30% />
+<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/model/mixtral-func3.png width=35% />
 </div>
 
 单层Mixtral模型结构
