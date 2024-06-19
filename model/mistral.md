@@ -60,17 +60,17 @@
 - 使用线性层的 Top-K logits，输出k个专家的结果，论文k=2
 
 <div align=center>
-<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/model/mixtral-func1.png width=20% />
+<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/model/mixtral-func1.png width=10% />
 </div>
 
 <div align=center>
-<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/model/mixtral-func2.png width=20% />
+<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/model/mixtral-func2.png width=25% />
 </div>
 
 
 - 整体输出
 <div align=center>
-<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/model/mixtral-func3.png width=20% />
+<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/model/mixtral-func3.png width=30% />
 </div>
 
 单层Mixtral模型结构
