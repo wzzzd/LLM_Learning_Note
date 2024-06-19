@@ -44,9 +44,9 @@
         - [Qwen v1](https://github.com/wzzzd/LLM_Learning_Note/blob/main/model/qwen.md)
         - [Qwen v1.5](https://github.com/wzzzd/LLM_Learning_Note/blob/main/model/qwen.md)
         - [Qwen v2](https://github.com/wzzzd/LLM_Learning_Note/blob/main/model/qwen.md)
-    - Mistral
-        - Mistral 7B
-        - Mixtral 8x7B MoE
+    - [Mistral](https://github.com/wzzzd/LLM_Learning_Note/blob/main/model/mistral.md)
+        - [Mistral 7B](https://github.com/wzzzd/LLM_Learning_Note/blob/main/model/mistral.md)
+        - [Mixtral 8x7B MoE](https://github.com/wzzzd/LLM_Learning_Note/blob/main/model/mistral.md)
 - Embedding模型
     - BCEmbedding
     - BGE
