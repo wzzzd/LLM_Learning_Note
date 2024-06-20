@@ -44,7 +44,7 @@
         - [Qwen v1](https://github.com/wzzzd/LLM_Learning_Note/blob/main/model/qwen.md)
         - [Qwen v1.5](https://github.com/wzzzd/LLM_Learning_Note/blob/main/model/qwen.md)
         - [Qwen v2](https://github.com/wzzzd/LLM_Learning_Note/blob/main/model/qwen.md)
-    - [Mistral](https://github.com/wzzzd/LLM_Learning_Note/blob/main/model/mistral.md)
+    - Mistral
         - [Mistral 7B](https://github.com/wzzzd/LLM_Learning_Note/blob/main/model/mistral.md)
         - [Mixtral 8x7B MoE](https://github.com/wzzzd/LLM_Learning_Note/blob/main/model/mistral.md)
 - Embedding模型
@@ -56,7 +56,7 @@
 
 - 模型结构
     - [LN种类（Layer Nrom）](https://github.com/wzzzd/LLM_Learning_Note/blob/main/model-module/ln.md)
-        - Post-LN]
+        - Post-LN
         - [Pre-LN](https://github.com/wzzzd/LLM_Learning_Note/blob/main/model-module/ln.md)
         - [Sandwich-LN](https://github.com/wzzzd/LLM_Learning_Note/blob/main/model-module/ln.md)
         - [DeepNet](https://github.com/wzzzd/LLM_Learning_Note/blob/main/model-module/ln.md)
