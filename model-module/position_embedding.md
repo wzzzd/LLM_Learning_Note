@@ -61,9 +61,12 @@ position为何可以直接与token、segment相加，作为模型输入
 <img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/model/pos-sincos-attr3.png width=60% />
 </div>
 
+
+
 ## 可训练式编码-Bert
 
 结构上，将positon embedding改成可训练的一组参数。
+
 效果上，与transformer中的正余弦位置编码，效果差不多。
 
 <div align=center>
