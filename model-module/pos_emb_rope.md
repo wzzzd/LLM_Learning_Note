@@ -27,7 +27,7 @@
 对x’m进行展开，得到二维向量转成虚数坐标表示，结合欧拉公式
 
 <div align=center>
-<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/model/pos_rope_func3.png width=50% />
+<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/model/pos_rope_func3.png width=55% />
 </div>
 
 继续展开x’m，得
@@ -53,13 +53,13 @@
 设计以下函数，输入是x’m，x’n，以及m-n，其中Re表示取虚数的实部
 
 <div align=center>
-<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/model/pos_rope_func7.png width=30% />
+<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/model/pos_rope_func7.png width=40% />
 </div>
 
 继续代入和推导
 
 <div align=center>
-<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/model/pos_rope_func8.png width=60% />
+<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/model/pos_rope_func8.png width=70% />
 </div>
 
 对式子3进行展开，得
