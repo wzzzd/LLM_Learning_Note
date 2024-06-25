@@ -1,8 +1,8 @@
 # 旋转编码-RoPE
 
-## 计算逻辑
+## 1.计算逻辑
 
-### 考虑在2维的情况下
+### 1.1 考虑在2维的情况下
 
 #### 目标
 
@@ -70,7 +70,7 @@
 
 两部分结果相同，得证。
 
-### 考虑在多维的情况下
+### 1.2 考虑在多维的情况下
 
 由于内积满足线性叠加性，因此任意偶数维的RoPE，我们都可以表示为二维情形的拼接。
 
@@ -93,16 +93,16 @@
 </div>
 
 
-## 远程衰减性
+## 2.远程衰减性
 
 RoPE中，内积随着相对距离增大的远程衰减
 
 <div align=center>
-<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/model/pos_rope_img1.png width=50% />
+<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/model/pos_rope_img1.png width=70% />
 </div>
 
 
-## 外推性
+## 3.外推性
 
 1.RoPE为什么能输出超过训练位置长度的位置编码（为什么具有外推性）？
 
@@ -124,7 +124,7 @@ RoPE中，内积随着相对距离增大的远程衰减
         - 即 || R^{-1} * Q_i - R^{-1} * Q_j || = || P_i - P_j || 。
         - 保证位置编码的可逆性和可解释性。
 
-## 有效性
+## 4.有效性
 
 1.RoPE为什么有效？
 - (1) 有效地保证位置信息的相对关系。
