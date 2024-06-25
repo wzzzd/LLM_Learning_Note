@@ -27,7 +27,7 @@
 对x’m进行展开，得到二维向量转成虚数坐标表示，结合欧拉公式
 
 <div align=center>
-<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/model/pos_rope_func3.png width=55% />
+<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/model/pos_rope_func3.png width=70% />
 </div>
 
 继续展开x’m，得
@@ -59,13 +59,13 @@
 继续代入和推导
 
 <div align=center>
-<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/model/pos_rope_func8.png width=70% />
+<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/model/pos_rope_func8.png width=75% />
 </div>
 
 对式子3进行展开，得
 
 <div align=center>
-<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/model/pos_rope_func9.png width=60% />
+<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/model/pos_rope_func9.png width=75% />
 </div>
 
 两部分结果相同，得证。
