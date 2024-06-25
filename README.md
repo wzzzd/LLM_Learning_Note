@@ -74,7 +74,7 @@
             - [Transformer-XL](https://github.com/wzzzd/LLM_Learning_Note/blob/main/model-module/pos_emb_rel.md)
             - [ALiBi](https://github.com/wzzzd/LLM_Learning_Note/blob/main/model-module/pos_emb_rel.md)
             - [Kerple](https://github.com/wzzzd/LLM_Learning_Note/blob/main/model-module/pos_emb_rel.md)
-        - [旋转位置编码]](https://github.com/wzzzd/LLM_Learning_Note/blob/main/model-module/pos_emb_rope.md)
+        - [旋转位置编码](https://github.com/wzzzd/LLM_Learning_Note/blob/main/model-module/pos_emb_rope.md)
             - [RoPE](https://github.com/wzzzd/LLM_Learning_Note/blob/main/model-module/pos_emb_rope.md)
 
 - 适应性训练（Adaptation tuning of LLMs）
