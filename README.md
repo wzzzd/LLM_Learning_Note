@@ -66,14 +66,14 @@
         - [Group Query Attention(GQA)](https://github.com/wzzzd/LLM_Learning_Note/blob/main/model-module/attention.md)
         - [Flash Attention v1/2/3](https://github.com/wzzzd/LLM_Learning_Note/blob/main/model-module/attention.md)
     - 位置编码（Position Embedding）
-        - 绝对位置编码
-            - 正余弦位置编码
-            - 可训练式编码
-        - 相对位置编码
-            - Google
-            - Transformer-XL
-            - ALiBi
-            - Kerple
+        - [绝对位置编码](https://github.com/wzzzd/LLM_Learning_Note/blob/main/model-module/pos_emb_abs.md)
+            - [正余弦位置编码](https://github.com/wzzzd/LLM_Learning_Note/blob/main/model-module/pos_emb_abs.md)
+            - [可训练式编码](https://github.com/wzzzd/LLM_Learning_Note/blob/main/model-module/pos_emb_abs.md)
+        - [相对位置编码](https://github.com/wzzzd/LLM_Learning_Note/blob/main/model-module/pos_emb_rel.md)
+            - [Google](https://github.com/wzzzd/LLM_Learning_Note/blob/main/model-module/pos_emb_rel.md)
+            - [Transformer-XL](https://github.com/wzzzd/LLM_Learning_Note/blob/main/model-module/pos_emb_rel.md)
+            - [ALiBi](https://github.com/wzzzd/LLM_Learning_Note/blob/main/model-module/pos_emb_rel.md)
+            - [Kerple](https://github.com/wzzzd/LLM_Learning_Note/blob/main/model-module/pos_emb_rel.md)
         - 旋转位置编码
             - RoPE
 
