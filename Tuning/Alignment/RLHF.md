@@ -4,7 +4,7 @@
 ## 思路
 
 <div align=center>
-<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/tuning/align-rlhf-process1.png width=50% />
+<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/tuning/align-rlhf-process1.png width=60% />
 </div>
 
 以ChatGPT/InstructGPT为例，进行说明。
@@ -69,7 +69,7 @@ labeler根据生成质量，对生成的候选文本排序。
 - 对于单轮数据中，标注集中的K个LM的输出结果pair，放到一个batch里，计算奖励模型的损失函数。
 
 <div align=center>
-<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/tuning/align-rlhf-func1.png width=30% />
+<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/tuning/align-rlhf-func1.png width=50% />
 </div>
 
 - 损失函数的目标是最大化labeler更喜欢的生成文本和不喜欢的生成文本之间的差值。
@@ -106,7 +106,7 @@ labeler根据生成质量，对生成的候选文本排序。
 #### 整体目标
 
 <div align=center>
-<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/tuning/align-rlhf-func4.png width=30% />
+<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/tuning/align-rlhf-func4.png width=50% />
 </div>
 
 
