@@ -80,7 +80,7 @@
 - 适应性训练（Adaptation tuning of LLMs）
     - 指令训练（Instuction tuning）
     - 对齐训练（Alignment tuning）
-        - RLHF
+        - [RLHF](https://github.com/wzzzd/LLM_Learning_Note/blob/main/Tuning/Alignment/RLHF.md)
         - DPO
         - RLAIF
         - RRHF
