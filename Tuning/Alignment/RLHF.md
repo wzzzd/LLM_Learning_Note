@@ -77,7 +77,7 @@ labeler根据生成质量，对生成的候选文本排序。
 
 ### Step3: 训练PPO模型
 #### 逻辑
-使用 RM 作为强化学习的优化目标，利用 PPO算法 微调 SFT模型
+使用 RM 作为强化学习的效果评判器，利用 PPO算法 微调 SFT模型
 
 #### 数据集
 来自OpenAI中API的用户数据，即 提示instruction
