@@ -16,7 +16,7 @@
 最后通过这个奖励模型RM的打分来指导强化学习模型PPO的训练。
 
 <div align=center>
-<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/tuning/align-rlhf-process2.png width=60% />
+<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/tuning/align-rlhf-process2.png width=70% />
 </div>
 
 
@@ -92,21 +92,21 @@ labeler根据生成质量，对生成的候选文本排序。
 添加一个KL惩罚项，确保PPO和SFT输出差距不会太大。原因是来避免PPO策略优化后的模型与SFT模型出现太大的差异。
 
 <div align=center>
-<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/tuning/align-rlhf-func2.png width=35% />
+<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/tuning/align-rlhf-func2.png width=30% />
 </div>
 
 
 添加一个通用语言模型学习目标，在paper中，叫PPO-ptx。原因是只进行PPO训练会导致模型在通用NLP任务中，性能大幅下降。
 
 <div align=center>
-<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/tuning/align-rlhf-func3.png width=35% />
+<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/tuning/align-rlhf-func3.png width=30% />
 </div>
 
 
 #### 整体目标
 
 <div align=center>
-<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/tuning/align-rlhf-func4.png width=50% />
+<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/tuning/align-rlhf-func4.png width=55% />
 </div>
 
 
