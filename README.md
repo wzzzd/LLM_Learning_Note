@@ -81,8 +81,12 @@
     - 指令训练（Instuction tuning）
     - 对齐训练（Alignment tuning）
         - RLHF
-            - Training language models to follow instructions with human feedback
-            - Deep reinforcement learning from human preferences
+        - DPO
+        - RLAIF
+        - RRHF
+        - RSO
+        - Rejection Sampling + SFT
+
     - [微调方法（Efficient tuning）](https://github.com/wzzzd/LLM_Learning_Note/blob/main/Tuning/efficient-tuning.md)
         - [Adapter tuning](https://github.com/wzzzd/LLM_Learning_Note/blob/main/Tuning/efficient-tuning.md)
         - [Prefix tuning](https://github.com/wzzzd/LLM_Learning_Note/blob/main/Tuning/efficient-tuning.md)

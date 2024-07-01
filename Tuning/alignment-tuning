@@ -17,4 +17,5 @@ paper
 为了解决以上缺点，需要alignment tuning来学习不同的目标，学习人类的偏好信息，如helpfulness、honesty、harmlessness等。这个过程也可以称为是一个与人类偏好对齐的过程。
 
 值得一提的是，某些研究表明，对齐(alignment)会损失LLM的通用能力，这也被称为 对齐税(alignment tax)。
+但是相对于没有经过对齐操作的模型，对齐后的模型生成的内容更加符合提问者的需求，回复更加人性化。
 
