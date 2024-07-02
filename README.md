@@ -81,7 +81,7 @@
     - 指令训练（Instuction tuning）
     - 对齐训练（Alignment tuning）
         - [RLHF](https://github.com/wzzzd/LLM_Learning_Note/blob/main/Tuning/Alignment/RLHF.md)
-        - DPO
+        - [DPO](https://github.com/wzzzd/LLM_Learning_Note/blob/main/Tuning/Alignment/DPO.md)
         - RLAIF
         - RRHF
         - RSO
