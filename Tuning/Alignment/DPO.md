@@ -13,7 +13,7 @@
  实质上，策略网络既代表语言模型，又代表奖励。
 
 <div align=center>
-<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/tuning/align-dpo-process1.png width=50% />
+<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/tuning/align-dpo-process1.png width=70% />
 </div>
 
 
@@ -21,7 +21,7 @@
 ### 损失函数
 
 <div align=center>
-<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/tuning/align-dpo-func1.png width=50% />
+<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/tuning/align-dpo-func1.png width=60% />
 </div>
 
 其中，
@@ -35,7 +35,7 @@
 上式括号中可以简化为
 
 <div align=center>
-<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/tuning/align-dpo-func2.png width=30% />
+<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/tuning/align-dpo-func2.png width=40% />
 </div>
 
 优化目标可以理解为，括号左边的差值，比右边的差值，margin越大越好。即，好的response相对ref的效果，要比差的response相对ref的效果要好才行。
@@ -48,7 +48,7 @@ reference model和policy model来自同一个SFT模型进行初始化。
 
 ## 流程
 
-1.对于每个prompt，采样回答<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/tuning/align-dpo-func3.png width=30% />，基于人类偏好标注并构建离线数据集<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/tuning/align-dpo-func4.png width=30% />。
+1.对于每个prompt，采样回答<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/tuning/align-dpo-func3.png width=10% />，基于人类偏好标注并构建离线数据集<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/tuning/align-dpo-func4.png width=10% />。
 
 2.对于给定的π_ref和数据集D，优化语言模型π_θ以最小化L_DPO和期望β。
 
