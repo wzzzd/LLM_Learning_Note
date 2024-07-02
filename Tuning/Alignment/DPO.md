@@ -48,7 +48,7 @@ reference model和policy model来自同一个SFT模型进行初始化。
 
 ## 流程
 
-1.对于每个prompt，采样回答<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/tuning/align-dpo-func3.png width=10% />，基于人类偏好标注并构建离线数据集<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/tuning/align-dpo-func4.png width=10% />。
+1.对于每个prompt，采样回答<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/tuning/align-dpo-func3.png width=15% />，基于人类偏好标注并构建离线数据集<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/tuning/align-dpo-func4.png width=15% />。
 
 2.对于给定的π_ref和数据集D，优化语言模型π_θ以最小化L_DPO和期望β。
 
