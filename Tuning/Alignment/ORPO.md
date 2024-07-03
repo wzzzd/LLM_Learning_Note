@@ -12,7 +12,7 @@
 - ORPO：直接添加一个对不受欢迎生成内容的惩罚项
 
 <div align=center>
-<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/tuning/align-orpo-process1.png width=60% />
+<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/tuning/align-orpo-process1.png width=80% />
 </div>
 
 
@@ -23,11 +23,11 @@
 - OR用来表示相对于生成l，模型更偏爱生成w的程度。
 
 <div align=center>
-<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/tuning/align-orpo-func1.png width=30% />
+<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/tuning/align-orpo-func1.png width=20% />
 </div>
 
 <div align=center>
-<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/tuning/align-orpo-func2.png width=30% />
+<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/tuning/align-orpo-func2.png width=20% />
 </div>
 
 
@@ -63,10 +63,10 @@ Odds损失
     - 在下游任务中，较大的 λ 值可能会导致模型在需要确定性答案的类别中表现不佳，而在需要开放式回答的类别中表现更好
 
 <div align=center>
-<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/tuning/align-orpo-eff1.png width=50% />
+<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/tuning/align-orpo-eff1.png width=80% />
 </div>
 
 
 ## Reference
-    * https://zhuanlan.zhihu.com/p/688583797
+- https://zhuanlan.zhihu.com/p/688583797
 
