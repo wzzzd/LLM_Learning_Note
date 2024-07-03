@@ -86,6 +86,7 @@
         - RRHF
         - RSO
         - Rejection Sampling + SFT
+        - [ORPO](https://github.com/wzzzd/LLM_Learning_Note/blob/main/Tuning/Alignment/ORPO.md)
 
     - [微调方法（Efficient tuning）](https://github.com/wzzzd/LLM_Learning_Note/blob/main/Tuning/efficient-tuning.md)
         - [Adapter tuning](https://github.com/wzzzd/LLM_Learning_Note/blob/main/Tuning/efficient-tuning.md)
