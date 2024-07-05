@@ -18,7 +18,7 @@ RRHF利用不同语言模型（ChatGPT、GPT-4、当前的训练模型或人类�
 训练好的RRHF模型可以同时用作生成语言模型和奖励模型。
 
 <div align=center>
-<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/tuning/align-rrhf-process1.png width=60% />
+<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/tuning/align-rrhf-process1.png width=70% />
 </div>
 
 
@@ -29,26 +29,26 @@ RRHF利用不同语言模型（ChatGPT、GPT-4、当前的训练模型或人类�
 为了使模型与分数{r_i}_k对齐，让模型π对每一个y_i使用下式计算分数p_i，p_i 是模型π下y_i的对数条件概率。
 
 <div align=center>
-<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/tuning/align-rrhf-func1.png width=40% />
+<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/tuning/align-rrhf-func1.png width=30% />
 </div>
 
 使用ranking loss来优化这样的目标：
 - 目的是使模型π对高质量输出给更大概率，对低质量输出给小概率。
 
 <div align=center>
-<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/tuning/align-rrhf-func2.png width=40% />
+<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/tuning/align-rrhf-func2.png width=30% />
 </div>
 
 给模型另外一个目标是去直接学习得分最高的回复
 
 <div align=center>
-<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/tuning/align-rrhf-func3.png width=40% />
+<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/tuning/align-rrhf-func3.png width=30% />
 </div>
 
 总损失
 
 <div align=center>
-<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/tuning/align-rrhf-func4.png width=40% />
+<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/tuning/align-rrhf-func4.png width=30% />
 </div>
 
 
