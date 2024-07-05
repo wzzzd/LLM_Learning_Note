@@ -83,7 +83,7 @@
         - [RLHF](https://github.com/wzzzd/LLM_Learning_Note/blob/main/Tuning/Alignment/RLHF.md)
         - [DPO](https://github.com/wzzzd/LLM_Learning_Note/blob/main/Tuning/Alignment/DPO.md)
         - RLAIF
-        - RRHF
+        - [RRHF](https://github.com/wzzzd/LLM_Learning_Note/blob/main/Tuning/Alignment/RRHF.md)
         - RSO
         - Rejection Sampling + SFT
         - [ORPO](https://github.com/wzzzd/LLM_Learning_Note/blob/main/Tuning/Alignment/ORPO.md)
