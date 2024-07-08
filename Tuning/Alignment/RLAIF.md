@@ -9,7 +9,7 @@
 - 在RLAIF中，首先，使用LLM来评估给定的文本和2个候选回复；然后，这些由LLM生成的偏好数据被用来训练一个奖励模型，这个奖励模型用于强化学习，以便进一步优化LLM。
 
 <div align=center>
-<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/tuning/align-rlaif-process1.png width=60% />
+<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/tuning/align-rlaif-process1.png width=70% />
 </div>
 
 ## 结构
@@ -17,11 +17,11 @@
 - 用于评估偏好回复的Prompt格式为
 
 <div align=center>
-<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/tuning/align-rlaif-process2.png width=60% />
+<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/tuning/align-rlaif-process2.png width=70% />
 </div>
 
 <div align=center>
-<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/tuning/align-rlaif-process3.png width=60% />
+<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/tuning/align-rlaif-process3.png width=70% />
 </div>
 
 - 在解码阶段添加了以下这些处理
