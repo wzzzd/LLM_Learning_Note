@@ -82,7 +82,7 @@
     - 对齐训练（Alignment tuning）
         - [RLHF](https://github.com/wzzzd/LLM_Learning_Note/blob/main/Tuning/Alignment/RLHF.md)
         - [DPO](https://github.com/wzzzd/LLM_Learning_Note/blob/main/Tuning/Alignment/DPO.md)
-        - RLAIF
+        - [RLAIF](https://github.com/wzzzd/LLM_Learning_Note/blob/main/Tuning/Alignment/RLAIF.md)
         - [RRHF](https://github.com/wzzzd/LLM_Learning_Note/blob/main/Tuning/Alignment/RRHF.md)
         - RSO
         - Rejection Sampling + SFT
