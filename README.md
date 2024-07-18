@@ -112,18 +112,24 @@ LLM的能力评估（Capacity Evaluation）
 - 各种精度介绍
 - 量化技术
 - 量化框架
+
 并行
-- 数据并行
-    - DP
-    - DDP
-- 模型并行
+- [数据并行](https://github.com/wzzzd/LLM_Learning_Note/blob/main/Parallel/parallel.md)
+    - Data Parallel(DP)
+    - Distributed Data Parallel(DDP)
+- [模型并行](https://github.com/wzzzd/LLM_Learning_Note/blob/main/Parallel/parallel.md)
     - 张量并行
     - 流水线并行
         - 朴素实现
         - G-pipe
         - 1F1B
         - Interleaved 1F1B
-- ZeRO（整合数据和模型并行）
+- [DeepSpeed-ZeRO](https://github.com/wzzzd/LLM_Learning_Note/blob/main/Parallel/deepspeed.md)
+    - 模型、训练过程的显存占用
+    - ZeRO-1/2/3
+    - ZeRO-Offload
+    - ZeRO-Infinity
+
 - 并行框架
 
 Scaling Law
