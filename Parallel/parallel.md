@@ -61,7 +61,7 @@ DDP不需要通过主GPU分发全模型的参数到每个GPU上。
 但是存在显卡整体使用率不高的缺点。
 
 <div align=center>
-<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/parallel/parallel-pipeline-nature.png width=50% />
+<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/parallel/parallel-pipeline-nature.png width=70% />
 </div>
 
 ### G-pipe
@@ -73,7 +73,7 @@ P个阶段，M个输入的气泡占比=  (P-1) / (P -1 + M)。
 该方法提升micro batch数量，会得到更小气泡占比，但是显存占用更大。
 
 <div align=center>
-<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/parallel/parallel-pipeline-gpipe.png width=50% />
+<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/parallel/parallel-pipeline-gpipe.png width=70% />
 </div>
 
 
@@ -82,7 +82,7 @@ P个阶段，M个输入的气泡占比=  (P-1) / (P -1 + M)。
 该方法主旨是尽早进行backward，占用内存只和流水线段数有关。
 
 <div align=center>
-<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/parallel/parallel-pipeline-1f1b.png width=50% />
+<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/parallel/parallel-pipeline-1f1b.png width=70% />
 </div>
 
 
@@ -93,7 +93,7 @@ P个阶段，M个输入的气泡占比=  (P-1) / (P -1 + M)。
 以更多的通信量进一步降低了气泡占比。
 
 <div align=center>
-<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/parallel/parallel-pipeline-inter1f1b.png width=50% />
+<img src=https://github.com/wzzzd/LLM_Learning_Note/blob/main/img/parallel/parallel-pipeline-inter1f1b.png width=70% />
 </div>
 
 
